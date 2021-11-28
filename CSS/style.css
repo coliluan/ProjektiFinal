@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    height:70px;
+    width:100%;
+    background-color: #182628;
+    color:#F2F2F2;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+#logo1{
+    position:absolute;
+    top:3%;
+    left:7%;
+    border-radius: 50%;
+}
+#button{
+    width: 10%;
+    margin-left: 5%;
+    height:45%;
+    background-color: #65CCB8;
+    border:none;
+    border-radius: 3px;
+    color: #182628;
+    font-family: monospace;
+}
+#button:hover{
+    background-color:#57BA98;
+}
+#search{
+    width: 10%;
+    margin-left: 5%;
+    height:45%;
+    background-color: #65CCB8;
+    border-radius: 3px;
+    color: #182628;
+    padding-left: 1%;
+    font-family: monospace;
+}
+#lightAquaDiv{
+    height:400px;
+    width:100%;
+    background-color: #65CCB8;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#lightAquaDiv h2{
+    padding-top: 40px;
+}
+#trendingPhoto1{
+    border:2px solid #436c70;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 53%;
+    left:20%;
+}
+#trendingPhoto2{
+    border:2px solid #436c70;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 53%;
+    left:33%;
+}
+#trendingPhoto3{
+    border:2px solid #436c70;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 53%;
+    left:46%;
+}
+#trendingPhoto4{
+    border:2px solid #436c70;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 53%;
+    left:59%;
+}
+#trendingPhoto5{
+    border:2px solid #436c70;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 53%;
+    left:72%;
+}
+#darkAquaDiv{
+    display: flex;
+    height:400px;
+    width:100%;
+    background-color:#57BA98;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom:2px solid #436c70;
+}
+#logo2{
+    border:2px solid #436c70;
+    border-radius: 50%;
+    position: absolute;
+    left:40%;
+    bottom:-13%;
+}
+#readReviews{
+    height: 5%;
+    width: 15%;
+    position: absolute;
+    top: 91%;
+    left:20%;
+    background-color: #65CCB8;
+    border:none;
+    border:2px solid #436c70;
+    border-radius: 3px;
+    font-family: monospace;
+}
+#readReviews:hover{
+    background-color: #50a08f;
+}
+#contactButton{
+    height: 5%;
+    width: 15%;
+    position: absolute;
+    top: 91%;
+    right:20%;
+    background-color: #65CCB8;
+    border:none;
+    border:2px solid #436c70;
+    border-radius: 3px;
+    font-family: monospace;
+}
+#contactButton:hover{
+    background-color: #50a08f;
+}
+#footer{
+    height: 70px;
+    width: 100%;
+    background-color: #182628;
+    color: #F2F2F2; 
+}
+#footer ul{
+    display: flex;
+    list-style: none;
+    padding-top: 1.5%;
+    margin-left: 5%;
+    font-family: monospace;
+}
+#footer ul li{
+    margin-right: 13.5%;
+    font-size: 120%;
+}
+footer ul li:hover{
+    color:#65CCB8;
+}
+::placeholder{
+    color: #182628;
+}
+@media only screen and (min-width:768px){
+}
