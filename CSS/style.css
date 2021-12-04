@@ -111,6 +111,24 @@
 #darkAquaDiv h2{
     padding-top: 40px;
 }
+#topBrands{
+    background-color:#006ba08c;
+    height: 275px;
+    width: 1315px;
+    margin-top: 40px;
+    position: absolute;
+    left:90px;
+    border-radius: 10px;
+}
+#companyList{
+    padding-top:13px;
+    padding-left: 13px;
+    display: flex;
+    list-style: none;
+}
+#companyList li{
+    padding-right: 10px;
+}
 #footer{
     height: 70px;
     width: 100%;
@@ -129,7 +147,7 @@
     font-size: 120%;
 }
 footer ul li:hover{
-    color:#65CCB8;
+    color:#89d6fb;
 }
 @media only screen and (min-width:768px){
 }
