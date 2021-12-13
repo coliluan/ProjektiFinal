@@ -2,21 +2,23 @@
 <html>
 <head>
     <title>Projekti Final</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homeStyle.css">
 </head>
 <body>
     <div name="header" id="header">
         <div id="logoDiv">
-            <img src="..\Images\Logo.PNG" alt="image not found" id="logo1" height="50px" width="50px">
-            <h2>ProjektiWeb</h2>
+            <a href="..\HomePage\home.html">
+                <img src="..\Images\Logo.PNG" alt="image not found" id="logo1" height="50px" width="50px">
+                <h2>ProjektiWeb</h2>
+            </a>
         </div>
         <div id="buttonDiv">
-            <ul>
-                <li id="button">Categories</li>
-                <li id="button">Cart</li>
-                <li id="button">Wishlist</li>
-                <li id="button">Login/Register</li>
-            </ul>
+            <div>
+                <a href="..\Categories\categories.html" id="button">Categories</a>
+                <a href="" id="button">Cart</a>
+                <a href="" id="button">Wishlist</a>
+                <a href="" id="button">Login/Register</a>
+            </div>
             <input type="text" id="search" placeholder="Search">
         </div>
     </div>

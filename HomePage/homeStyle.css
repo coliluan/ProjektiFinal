@@ -8,6 +8,10 @@
     color:#F2F2F2;
     padding-top: 2%;
 }
+#logoDiv a{
+    text-decoration:none;
+    color:#F2F2F2;
+}
 #logo1{
     position:absolute;
     top:3%;
@@ -25,15 +29,16 @@
     text-align: right;
     margin-right: 3%;
 }
-#buttonDiv ul{
+#buttonDiv div{
     display:flex;
     position: absolute;
     padding-top: 0.5%;
     left: 55%;
     list-style: none;
 }
-#buttonDiv ul li{
+#buttonDiv a{
     width: 100px;
+    text-decoration: none;
 }
 #button{
     text-align: center;

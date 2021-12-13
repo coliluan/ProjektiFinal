@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    height:70px;
+    background-color: #01303f;
+    color:#F2F2F2;
+    padding-top: 2%;
+}
+#logoDiv a{
+    text-decoration:none;
+    color:#F2F2F2;
+}
+#logo1{
+    position:absolute;
+    top:3%;
+    left:3%;
+    border-radius: 50%;
+}
+#header h2{
+    font-size: 200%;
+    position:absolute;
+    font-family: monospace;
+    left: 7%;
+    top: 4.5%;
+}
+#buttonDiv{
+    text-align: right;
+    margin-right: 3%;
+}
+#buttonDiv div{
+    display:flex;
+    position: absolute;
+    padding-top: 0.5%;
+    left: 55%;
+    list-style: none;
+}
+#buttonDiv a{
+    width: 100px;
+    text-decoration: none;
+}
+#button{
+    text-align: center;
+    font-size: 120%;
+    width: 10%;
+    height:45%;
+    background-color:#01303f;
+    border:none;
+    border-radius: 3px;
+    color: #F2F2F2;
+    font-family: monospace;
+}
+#button:hover{
+    color:#89d6fb;
+}
+#search{
+    width: 170px;
+    height:25px;
+    background-color: #b1b1b1;
+    border-radius: 20px;
+    border:none;
+    color: #182628;
+    padding-left: 1%;
+    margin-top:0.3%;
+    font-family: monospace;
+}
+#productDiv{
+    display: flex;
+    height:450px;
+    padding-top:50px;
+    padding-left:60px;
+    background-color:#F2F2F2;
+}
+#productInfo{
+    width: 700px;
+    margin-left: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#productInfo h4{
+    margin-top: 88px;
+    color:#6d6d6d
+}
+#cartButton{
+    border-radius: 3px;
+    height: 75px;
+    width: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#0384c0;
+    border:1px solid #02425f;
+}
+#wishlistButton{
+    border-radius: 3px;
+    height: 75px;
+    width: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #89d6fb;
+    border:1px solid #347d9e;
+}
+#reviewDiv{
+    height:200px;
+    background-color: #e9e9e9;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 60px;
+}
