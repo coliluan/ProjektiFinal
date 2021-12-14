@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Karroca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Admin\OneDrive\Desktop\karroca\stilizimiCart.css">
+    <body>
+        <div name="header" id="header">
+            <div id="logoDiv">
+                <img src="Images\Logo.PNG" alt="image not found" id="logo1" height="50px" width="50px">
+                <h2>ProjektiWeb</h2>
+            </div>
+            <div id="buttonDiv">
+                <ul>
+                    <li id="button">Categories</li>
+                    <li id="button">Cart</li>
+                    <li id="button">Wishlist</li>
+                    <li id="button">Login/Register</li>
+                </ul>
+                <input type="text" id="search" placeholder="Search">
+            </div>
+        </div>
+        
+        
+        <div class="korniza">
+
+            <div class="div1-kornizat-faqja">
+            <h1>There is nothing in your Cart</h1>
+            <img src="cart.png" width="150px; " >
+            </div>
+
+            <div class="CartList1">
+                <h1>Cart List 1</h1>
+                <h3>Produkti me i shituri:qwertyuiopasdfghjklzxcvbnm</h3>
+                </div>
+        
+                <div class="CartList2">
+                <h1>Cart List</h1>
+                <h3>Produkti me i shituri:qwertyuiopasdfghjklzxcvbnm</h3>
+                </div>
+        
+                <div class="CartList3">
+                <h1>Cart List</h1>
+                <h3>Produkti me i shituri:qwertyuiopasdfghjklzxcvbnm</h3>
+                </div>
+
+
+                    
+        </div>
+
+    </body>
+</head>
+==========================================================STILIZIMI--------------------------------------------
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    height:70px;
+    background-color: #01303f;
+    color:#F2F2F2;
+    padding-top: 2%;
+}
+#logo1{
+    position:absolute;
+    top:3%;
+    left:3%;
+    border-radius: 50%;
+}
+#header h2{
+    font-size: 200%;
+    position:absolute;
+    font-family: monospace;
+    left: 7%;
+    top: 4.5%;
+}
+#buttonDiv{
+    text-align: right;
+    margin-right: 3%;
+}
+#buttonDiv ul{
+    display:flex;
+    position: absolute;
+    padding-top: 0.5%;
+    left: 55%;
+    list-style: none;
+}
+#buttonDiv ul li{
+    width: 100px;
+}
+#button{
+    text-align: center;
+    font-size: 120%;
+    width: 10%;
+    height:45%;
+    background-color:#01303f;
+    border:none;
+    border-radius: 3px;
+    color: #F2F2F2;
+    font-family: monospace;
+}
+#button:hover{
+    color:#89d6fb;
+}
+#search{
+    width: 170px;
+    height:25px;
+    background-color: #b1b1b1;
+    border-radius: 20px;
+    border:none;
+    color: #182628;
+    padding-left: 1%;
+    margin-top:0.3%;
+    font-family: monospace;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial;
+}
+
+
+.korniza
+{
+    width: 100%;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    display: grid;
+    color: black;
+    grid-gap: 50px;
+    
+    
+   
+}
+
+.div1-kornizat-faqja
+{
+    padding: 10px;
+    background-color: #57B1FF;
+    grid-column: 1/-1;
+}
+.CartList1
+{
+    padding: 70px;
+    background-color: #84FF57;
+}
+
+.CartList2
+{
+    padding: 70px;
+    background-color: #AB57FF;
+}
+
+.CartList3
+{
+    padding: 70px;
+    background-color: #FFC257;
+}
+
+
