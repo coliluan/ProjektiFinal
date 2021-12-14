@@ -25,34 +25,35 @@
     <div name="lightAquaDiv" id="lightAquaDiv">
         <h2>TRENDING PRODUCTS</h2>
         <h4>See What others are buying</h4>
-        <img src="..\Images\PS5.jpg" alt="image" id="trendingPhoto1" height="250px" width="250px">           
-        <img src="..\Images\Laptop.jpg" alt="image" id="trendingPhoto2" height="250px" width="250px">
-        <img src="..\Images\Headphones.jpg" alt="image" id="trendingPhoto3" height="250px" width="250px">
-        <img src="..\Images\TV.jpg" alt="image" id="trendingPhoto4" height="250px" width="250px">
+        <a href="..\ProductPage\ps5.html"><img src="..\Images\PS5.jpg" alt="image" id="trendingPhoto1" height="250px" width="250px"></a>    
+        <a href="..\ProductPage\macBook.html"><img src="..\Images\Laptop.jpg" alt="image" id="trendingPhoto2" height="250px" width="250px"></a>
+        <a href="..\ProductPage\beats.html"><img src="..\Images\Headphones.jpg" alt="image" id="trendingPhoto3" height="250px" width="250px"></a>
+        <a href="..\ProductPage\tv.html"><img src="..\Images\TV.jpg" alt="image" id="trendingPhoto4" height="250px" width="250px"></a>
     </div>
     <div name="darkAquaDiv" id="darkAquaDiv">
         <h2>TOP BRANDS</h2>
         <h4>Check out our most famous brands</h4>
         <div id="topBrands">
         <ul id="companyList">
-            <li><img src="..\Images\Lenovo.png" alt="Image" id="lenovo" height="250px" width="250px"></li>
-            <li><img src="..\Images\Acer.jpg" alt="Image" id="acer" height="250px" width="250px"></li>
-            <li><img src="..\Images\Apple.jpg" alt="Image" id="apple" height="250px" width="250px"></li>
-            <li><img src="..\Images\HP.png" alt="Image" id="hp" height="250px" width="250px"></li>
-            <li><img src="..\Images\Dell.png" alt="Image" id="dell" height="250px" width="250px"></li>
+            <li><img src="..\Images\Acer.jpg" alt="Image" id="company1" height="250px" width="250px"></li>
+            <li><img src="..\Images\Apple.jpg" alt="Image" id="company2" height="250px" width="250px"></li>
+            <li><img src="..\Images\Dell.png" alt="Image" id="company3" height="250px" width="250px"></li>
+            <button id="slideBack" onclick="backward()"><</button>
+            <button id="slideForward" onclick="forward()">></button>
         </ul>
         </div>
     </div>
     <footer name="footer" id="footer">
-        <ul>
-            <li>facebook</li>
-            <li>twitter</li>
-            <li>instagram</li>
-            <li>linkedln</li>
-            <li>pintrest</li>
-            <li>gmail</li>
-        </ul>
+        <div id="footerUl">
+            <a href="https://twitter.com/ProjektiWebEdi" id="footerLi">facebook</a>
+            <a href="https://twitter.com/ProjektiWebEdi" id="footerLi">twitter</a>
+            <a href="https://www.instagram.com/projektiweb/" id="footerLi">instagram</a>
+            <a href="https://www.linkedin.com/in/projekti-web-450a0a227/" id="footerLi">linkedIn</a>
+            <a href="https://www.pinterest.com/projektiw/_saved/" id="footerLi">pinterest</a>
+            <a href="mailto:projektiweb1507@gmail.com" id="footerLi">gmail</a>
+        </div>
     </footer>
+    <script src="main.js"></script>
 </div>
 </body>
 </html>

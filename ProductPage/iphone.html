@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <title>Categories</title>
-    <link rel="stylesheet" href="categoriesStyle.css">
+    <title>Product</title>
+    <link rel="stylesheet" href="productStyle.css">
 </head>
 <body>
     <div name="header" id="header">
@@ -22,29 +21,20 @@
             <input type="text" id="search" placeholder="Search">
         </div>
     </div>
-    <div id="mainPage">
-        <div id="sidebar">
-            <ul id="categoryBar">
-                <li><b><a href="categories.html">All</a></li>
-                <li><a href="phones.html">Phones</a></li>
-                <li><a href="computers.html">Computers</a></li>
-                <li><a href="television.html">Television</a></li>
-                <li><a href="gaming.html">Gaming</a></li>
-                <li><a href="smartHome.html">SmartHome</a></li>
-                <li><a href="camera.html">Camera & Video</a></li>
-            </ul>
+    <div id="productDiv">
+        <img src="..\Images\Phone.jpg" alt="Image" height="400px" width="400px">
+        <div id="productInfo">
+            <h1>iPhone 13 128GB</h1>
+            <h3>The iPhone 13 and 13 Mini received a number of significant upgrades including new cameras, a bigger battery, more storage and a brighter screen. The iPhone 13 is a delightful upgrade to last year's already wonderful iPhone 12 family. Some will be disappointed because it's not radically different from previous models, but that's actually part of the charm.</h3>
+            <h4>1500.00$</h4>
+            <button id="cartButton"><b>ADD TO CART</button>
+            <button id="wishlistButton">ADD TO WISHLIST</b></button>
         </div>
-        <div id="whiteDiv">
-            <div id="product1">
-                <a href="..\ProductPage\tv.html"><img src="..\Images\TV.jpg" alt="" height="250px" width="250px">
-                <h3>TV</h3>
-                <h4>3299.99$</h4></a>
-            </div>
-        </div>
-        <div id="pageChanger">
-            <button>Previous</button>
-            <button>Next</button>
-        </div>
+    </div>
+    <div id="reviewDiv">
+        <h2>Reviews *komentet ruhen ne console</h2>
+        <textarea type="text" id="reviewSection" placeholder="Post a Review"></textarea><br>
+        <button id="postButton" onclick="postReview()"><b>POST</b></button>
     </div>
     <footer name="footer" id="footer">
         <div id="footerUl">
@@ -56,5 +46,6 @@
             <a href="mailto:projektiweb1507@gmail.com" id="footerLi">gmail</a>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>

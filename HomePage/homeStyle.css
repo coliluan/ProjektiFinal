@@ -119,10 +119,10 @@
 #topBrands{
     background-color:#006ba08c;
     height: 275px;
-    width: 1315px;
+    width: 1160px;
     margin-top: 40px;
     position: absolute;
-    left:90px;
+    left:175px;
     border-radius: 10px;
 }
 #companyList{
@@ -131,8 +131,56 @@
     display: flex;
     list-style: none;
 }
-#companyList li{
-    padding-right: 10px;
+#company1{
+    position: absolute;
+    top:13px;
+    left: 150px;
+    border-radius: 50px;
+}
+#company2{
+    position: absolute;
+    top:13px;
+    left: 450px;
+    border-radius: 50px;
+}
+#company3{
+    position: absolute;
+    top:13px;
+    left: 750px;
+    border-radius: 50px;
+}
+#slideBack{
+    height:100px;
+    width:100px;
+    position:absolute;
+    top: 30%;
+    background-color: #01303f;
+    color:#bce8fd;
+    font-size: 500%;
+    border-radius: 50%;
+    border: none;
+    padding-right: 5px;
+    font-family: initial;
+}
+#slideBack:hover{
+    color: #02577a;
+}
+#slideForward{
+    height:100px;
+    width:100px;
+    position:absolute;
+    background-color: #01303f;
+    color:#bce8fd;
+    top: 30%;
+    left:1045px;
+    font-size: 500%;
+    border-radius: 50%;
+    border: none;
+    padding-left: 5px;
+    font-family: initial;
+}
+#slideForward:hover{
+    color: #02577a;
 }
 #footer{
     height: 70px;
@@ -140,18 +188,20 @@
     background-color: #01303f;
     color: #F2F2F2; 
 }
-#footer ul{
+#footerUl{
     display: flex;
     list-style: none;
     padding-top: 1.5%;
     margin-left: 5%;
     font-family: monospace;
 }
-#footer ul li{
+#footerLi{
     margin-right: 13.5%;
     font-size: 120%;
+    text-decoration: none;
+    color: #F2F2F2;
 }
-footer ul li:hover{
+#footerLi:hover{
     color:#89d6fb;
 }
 @media only screen and (min-width:768px){

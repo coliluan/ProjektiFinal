@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <title>Categories</title>
-    <link rel="stylesheet" href="categoriesStyle.css">
+    <title>Product</title>
+    <link rel="stylesheet" href="productStyle.css">
 </head>
 <body>
     <div name="header" id="header">
@@ -22,29 +21,20 @@
             <input type="text" id="search" placeholder="Search">
         </div>
     </div>
-    <div id="mainPage">
-        <div id="sidebar">
-            <ul id="categoryBar">
-                <li><b><a href="categories.html">All</a></li>
-                <li><a href="phones.html">Phones</a></li>
-                <li><a href="computers.html">Computers</a></li>
-                <li><a href="television.html">Television</a></li>
-                <li><a href="gaming.html">Gaming</a></li>
-                <li><a href="smartHome.html">SmartHome</a></li>
-                <li><a href="camera.html">Camera & Video</a></li>
-            </ul>
+    <div id="productDiv">
+        <img src="..\Images\Camera.jpg" alt="Image" height="400px" width="400px">
+        <div id="productInfo">
+            <h1>Canon EOS 550D</h1>
+            <h3>The EOS 550D combines exceptional still shooting with the ability to shoot Full HD (1080p) video. To satisfy your creativity the EOS 550D features full manual control and selectable frame rates. You can also shoot high speed 50/60fps movies at 720P for when the action is really fast. An HDMI connection allows High Definition playback of footage and images on any HDTV. Also with compatible TVs playback can be controlled using the TVs remote control.</h3>
+            <h4>663.00$</h4>
+            <button id="cartButton"><b>ADD TO CART</button>
+            <button id="wishlistButton">ADD TO WISHLIST</b></button>
         </div>
-        <div id="whiteDiv">
-            <div id="product1">
-                <a href="..\ProductPage\tv.html"><img src="..\Images\TV.jpg" alt="" height="250px" width="250px">
-                <h3>TV</h3>
-                <h4>3299.99$</h4></a>
-            </div>
-        </div>
-        <div id="pageChanger">
-            <button>Previous</button>
-            <button>Next</button>
-        </div>
+    </div>
+    <div id="reviewDiv">
+        <h2>Reviews *komentet ruhen ne console</h2>
+        <textarea type="text" id="reviewSection" placeholder="Post a Review"></textarea><br>
+        <button id="postButton" onclick="postReview()"><b>POST</b></button>
     </div>
     <footer name="footer" id="footer">
         <div id="footerUl">
@@ -56,5 +46,6 @@
             <a href="mailto:projektiweb1507@gmail.com" id="footerLi">gmail</a>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
